@@ -43,6 +43,7 @@ int main(void)
 		printf("Error\n");
 	}
 	else
+	{
 		printf("%s + %s = %s\n", n, m, res);
 	}
 	res = infinite_add(n, m, r3, 11);
